@@ -30,19 +30,30 @@ const CookiesPage: React.FC = () => {
         <>
             <LegalPageLayout title="Política de Cookies" lastUpdated="1 de Janeiro de 2024">
                 <h2>1. O que são cookies?</h2>
-                <p>Cookies são pequenos arquivos de texto que são armazenados em seu computador ou dispositivo móvel quando você visita um site...</p>
+                <p>Cookies são pequenos arquivos de texto enviados e armazenados no seu navegador quando você visita um site. Eles permitem reconhecer seu dispositivo, armazenar preferências e melhorar a usabilidade da sua navegação.</p>
                 
                 <h2>2. Como usamos os cookies?</h2>
-                <p>Usamos cookies para entender como você usa nosso site e para melhorar sua experiência. Isso inclui a personalização de conteúdo e publicidade...</p>
+                <p>O site da <strong>adm-academia</strong> utiliza cookies para oferecer uma melhor experiência de navegação, entender como nossos visitantes interagem com nossos conteúdos e aprimorar constantemente nossos serviços e campanhas, especialmente durante a ação <strong>BLACK FRIDAY LENDÁRIA</strong>.</p>
 
                 <h2>3. Tipos de Cookies que Usamos</h2>
                 <ul>
-                    <li><strong>Cookies Essenciais:</strong> Necessários para o funcionamento do site.</li>
-                    <li><strong>Cookies de Desempenho:</strong> Coletam informações sobre como os visitantes usam o site.</li>
-                    <li><strong>Cookies de Funcionalidade:</strong> Lembram as escolhas que você faz.</li>
+                    <li><strong>Cookies Essenciais:</strong> Necessários para que o site funcione corretamente, permitindo o acesso a áreas seguras e operações básicas.</li>
+                    <li><strong>Cookies de Desempenho:</strong> Coletam informações estatísticas sobre o uso do site, como páginas mais visitadas e tempo médio de navegação, ajudando-nos a entender o comportamento dos visitantes.</li>
+                    <li><strong>Cookies de Funcionalidade:</strong> Permitem que o site memorize suas preferências (como idioma e configurações de exibição), proporcionando uma experiência personalizada.</li>
+                    <li><strong>Cookies de Marketing e Publicidade:</strong> Utilizados para exibir anúncios relevantes e medir a eficácia de campanhas, inclusive de tráfego pago direcionado à nossa landing page de vendas.</li>
                 </ul>
-                
-                <p>... (Conteúdo completo da política de cookies aqui)</p>
+
+                <h2>4. Gerenciamento de Cookies</h2>
+                <p>Você pode gerenciar ou desativar cookies diretamente nas configurações do seu navegador. Lembre-se de que a remoção ou bloqueio de determinados cookies pode afetar o funcionamento e desempenho do site.</p>
+
+                <h2>5. Consentimento</h2>
+                <p>Ao acessar e navegar pelo site <em>adm-academia.valoresdigitais.com</em>, você concorda com o uso dos cookies conforme esta Política. Após aceitar o aviso de cookies exibido no rodapé, sua preferência será salva enquanto o cookie de consentimento estiver ativo.</p>
+
+                <h2>6. Alterações nesta Política</h2>
+                <p>Poderemos atualizar esta Política de Cookies periodicamente para refletir mudanças tecnológicas, legais ou operacionais. A data da última atualização estará sempre informada no início desta página.</p>
+
+                <h2>7. Contato</h2>
+                <p>Em caso de dúvidas sobre esta política ou sobre o uso de seus dados, entre em contato com nossa equipe pelo e-mail: <a href="mailto:suporte@valoresdigitais.com">suporte@valoresdigitais.com</a>.</p>
             </LegalPageLayout>
             <CookieConsentBanner />
         </>
