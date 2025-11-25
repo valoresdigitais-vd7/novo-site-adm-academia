@@ -12,25 +12,25 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#0891b2', // cyan-600
-          light: '#22d3ee',   // cyan-400
-          dark: '#0e7490',    // cyan-700
+          DEFAULT: '#ff0044', // vermelho forte - tom de urgência (Black Friday)
+          light: '#ff3366',   // vermelho claro para hover e destaque
+          dark: '#cc0036',    // vermelho escuro para fundos e gradientes
         },
         secondary: {
-          DEFAULT: '#f97316', // orange-500
-          light: '#fb923c',   // orange-400
-          dark: '#ea580c',    // orange-600
+          DEFAULT: '#ffd700', // amarelo ouro - contraste e destaque promocional
+          light: '#ffeb7a',   // amarelo claro para elementos de luz
+          dark: '#b38f00',    // dourado escuro - elegância e valor premium
         },
         neutral: {
-          100: '#f8fafc', // slate-50
-          200: '#f1f5f9', // slate-100
-          300: '#e2e8f0', // slate-200
-          400: '#cbd5e1', // slate-300
-          500: '#94a3b8', // slate-400
-          600: '#64748b', // slate-500
-          700: '#475569', // slate-600
-          800: '#334155', // slate-700
-          900: '#1e293b', // slate-800
+          100: '#f8fafc', // slate-50 - Fundo geral
+          200: '#f1f5f9', // slate-100 - Fundo de seções alternadas
+          300: '#e2e8f0', // slate-200 - Bordas suaves
+          400: '#cbd5e1', // slate-300 - Bordas
+          500: '#94a3b8', // slate-400 - Texto desabilitado
+          600: '#64748b', // slate-500 - Texto secundário
+          700: '#475569', // slate-600 - Texto
+          800: '#1a1a1a', // fundo escuro - seção black friday e footer
+          900: '#0d0d0d', // preto total - hero e CTAs intensos
         }
       },
       fontFamily: {
